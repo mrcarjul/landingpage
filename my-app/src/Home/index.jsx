@@ -25,6 +25,7 @@ import {
   Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 let isMobile;
 enquireScreen((b) => {
