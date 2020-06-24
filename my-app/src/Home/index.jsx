@@ -75,12 +75,6 @@ export default class Home extends React.Component {
         dataSource={Banner20DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner1
-        id="Banner1_0"
-        key="Banner1_0"
-        dataSource={Banner10DataSource}
-        isMobile={this.state.isMobile}
-      />,
       <Banner0
         id="Banner0_0"
         key="Banner0_0"

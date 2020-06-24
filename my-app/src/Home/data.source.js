@@ -92,71 +92,16 @@ export const Banner20DataSource = {
     ],
   },
 };
-export const Banner10DataSource = {
-  wrapper: { className: 'banner1' },
-  BannerAnim: {
-    children: [
-      {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg0' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: 'Developing',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
-      },
-      {
-        name: 'elem1',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: 'Building',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
-      },
-      {
-        name: 'elem2',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: { className: 'banner1-text-wrapper' },
-        bg: { className: 'bg bg1' },
-        title: {
-          className: 'banner1-title',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content',
-          children: 'Innovating',
-        },
-        button: { className: 'banner1-button', children: 'Learn More' },
-      },
-    ],
-  },
-};
 export const Banner00DataSource = {
   wrapper: { className: 'banner0' },
   textWrapper: { className: 'banner0-text-wrapper' },
   title: {
     className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    children: 'https://cdn.worldvectorlogo.com/logos/react-2.svg',
   },
   content: {
     className: 'banner0-content',
-    children: 'Experienced Apps Developer',
+    children: 'Experienced React, React Native Developer ',
   },
   button: { className: 'banner0-button', children: 'Learn More' },
 };
