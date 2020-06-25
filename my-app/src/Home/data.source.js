@@ -193,14 +193,14 @@ export const Banner50DataSource = {
         name: "explain",
         className: "banner5-explain",
         children: `Hi, I'm a Mobile Developer with more than 4 years of experience working in web based solutions,
-        Focused my career on front-end development and JavaScript technologies to build React based applications.
+        focused on front-end development and JavaScript technologies to build React based applications.
         `,
       },
       {
         name: "content",
         className: "banner5-content",
         children: `Committed, self-taught and dynamic, with excellent interpersonal relationships. 
-                   Well known for being adaptable, and always open to learn new technologies and 
+                   Known for being adaptable, and always open to learn new technologies and 
                    implementing them correctly to deliver high quality results in all projects.`,
       },
       {
@@ -350,10 +350,10 @@ export const Content30DataSource = {
                   In 2020 there was a census in México, the app was a small
                   project designed to help users validate interviewers identity,
                   and have the population of diferent entities informed about
-                  it. Throught the publi api rest provided by INEGI(Our National
-                  institute for statistics an geography). I was in charge of the
-                  app implemantation, Techs used: React Native, Redux, Redux
-                  Thunk, Axios.
+                  it. Throught the public api rest provided by INEGI(Our
+                  National institute for statistics an geography). I was in
+                  charge of the app implemantation.<br></br>Techs used: React
+                  Native, Redux, Redux Thunk, Axios.
                 </span>
                 <span>
                   <br></br>
@@ -463,7 +463,7 @@ export const Content30DataSource = {
             children: (
               <>
                 <span>
-                  App built for Hong Kong Internation Airport. I was so
+                  App built for Hong Kong International Airport. I was so
                   fortunate to have the opportunity to work in this project, i
                   was in charge of two apps one built for final user and one as
                   terminal for the warehouse management, unfourtunately, i can't
