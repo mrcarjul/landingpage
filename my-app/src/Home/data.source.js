@@ -167,21 +167,6 @@ export const Content00DataSource = {
     ],
   },
 };
-export const Content10DataSource = {
-  wrapper: { className: "home-page-wrapper content1-wrapper" },
-  OverPack: { className: "home-page content1", playScale: 0.3 },
-  imgWrapper: { className: "content1-img", md: 10, xs: 24 },
-  img: {
-    children: "https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png",
-  },
-  textWrapper: { className: "content1-text", md: 14, xs: 24 },
-  title: { className: "content1-title", children: "Still thinking this part" },
-  content: {
-    className: "content1-content",
-    children:
-      "Some explanation goes here(TO DO :P), im getting tired dont judge me",
-  },
-};
 export const Banner50DataSource = {
   wrapper: { id: "about", className: "home-page-wrapper banner5" },
   page: { className: "home-page banner5-page" },
@@ -192,8 +177,8 @@ export const Banner50DataSource = {
       {
         name: "explain",
         className: "banner5-explain",
-        children: `Hi, I'm a Mobile Developer with more than 4 years of experience working in web based solutions,
-        focused on front-end development and JavaScript technologies to build React based applications.
+        children: `Hi, I'm a Mobile Developer with more than 7 years of experience working in web based solutions,
+        focused on front-end development and JavaScript technologies to build React Native applications.
         `,
       },
       {
@@ -479,6 +464,134 @@ export const Content30DataSource = {
           },
         },
       },
+      {
+        name: "block5",
+        className: "content3-block",
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: "content3-icon",
+            children:
+              "https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png",
+          },
+          textWrapper: { className: "content3-text" },
+          title: { className: "content3-title", children: "VeMiDoc" },
+          content: {
+            className: "content3-content",
+            children: (
+              <>
+                <span>
+                  VeMiDoc strengthens the connection between patients and
+                  doctors, improving access to care. It also allows healthcare
+                  providers to reach more patients and deliver the care they
+                  need.
+                </span>
+                <span>
+                  <br></br>
+                  <a href="https://play.google.com/store/apps/details?id=com.vemidoc">
+                    {" "}
+                    Play Store
+                  </a>
+                  <br></br>
+                  <a href="https://apps.apple.com/us/app/vemidoc/id1199542446">
+                    App store
+                  </a>
+                </span>
+              </>
+            ),
+          },
+        },
+      },
+      {
+        name: "block5",
+        className: "content3-block",
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: "content3-icon",
+            children:
+              "https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png",
+          },
+          textWrapper: { className: "content3-text" },
+          title: { className: "content3-title", children: "Nordos" },
+          content: {
+            className: "content3-content",
+            children: (
+              <>
+                <span>
+                  Nørdos is a mobile risk analysis and tracking platform built
+                  with React Native, designed to monitor and assess individual
+                  risk profiles in real time. The app leverages Redux for state
+                  management and integrates Google Maps SDK to visualize
+                  geolocation data. It features robust background and foreground
+                  location tracking services, optimized for both iOS and Android
+                  platforms, ensuring continuous and efficient data capture.
+                  Advanced machine learning algorithms are employed for risk
+                  scoring and predictive analysis, allowing the system to adapt
+                  dynamically to user behavior and environmental factors. The
+                  architecture emphasizes scalability, modular design, and
+                  efficient performance, making it suitable for high-risk
+                  industries such as security, health, and logistics.
+                </span>
+                <span>
+                  <br></br>
+                  <a href="https://play.google.com/store/apps/details?id=dev.nordos">
+                    {" "}
+                    Play Store
+                  </a>
+                  <br></br>
+                  <a href="https://apps.apple.com/mx/app/nordos/id1594922617">
+                    App store
+                  </a>
+                </span>
+              </>
+            ),
+          },
+        },
+      },
+      {
+        name: "block5",
+        className: "content3-block",
+        md: 8,
+        xs: 24,
+        children: {
+          icon: {
+            className: "content3-icon",
+            children:
+              "https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png",
+          },
+          textWrapper: { className: "content3-text" },
+          title: { className: "content3-title", children: "ATS Freigthmatch" },
+          content: {
+            className: "content3-content",
+            children: (
+              <>
+                <span>
+                  ATS FreightMatch is a load board app that provides access to
+                  quality freight with accurate information and a consistent
+                  user-friendly experience so you can move freight with
+                  confidence. Become a more efficient trucking company with the
+                  best flatbed — including over-dimensional — reefer and dry van
+                  freight at your fingertips.
+                </span>
+                <span>
+                  <br></br>
+                  <a href="https://play.google.com/store/apps/details?id=com.atsinc.freightmatch&hl=en">
+                    {" "}
+                    Play Store
+                  </a>
+                  <br></br>
+                  <a href="https://apps.apple.com/us/app/ats-freightmatch/id1670566484">
+                    App store
+                  </a>
+                </span>
+              </>
+            ),
+          },
+        },
+      },
     ],
   },
 };
@@ -490,7 +603,7 @@ export const Footer00DataSource = {
     children: (
       <>
         <span>
-          ©2019 <a href="#">Carlos Julio Portafolio</a> All Rights Reserved
+          ©2025 <a href="#">Carlos Julio Portafolio</a> All Rights Reserved
         </span>
       </>
     ),

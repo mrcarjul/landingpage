@@ -16,10 +16,7 @@ import Footer0 from './Footer0';
 import {
   Nav00DataSource,
   Banner20DataSource,
-  Banner10DataSource,
   Banner00DataSource,
-  Content00DataSource,
-  Content10DataSource,
   Banner50DataSource,
   Content30DataSource,
   Footer00DataSource,
